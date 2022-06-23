@@ -1,5 +1,5 @@
 imageKey:
-    repository: webapidotnet.azurecr.io/webapidotnet
+    repository: aksndc.azurecr.io/webapidotnet
     pullPolicy: IfNotPresent
     tag: latest
 service:

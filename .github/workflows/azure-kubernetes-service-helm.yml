@@ -5,7 +5,7 @@ name: Build and deploy an app to AKS with Helm
             - main
     workflow_dispatch: null
 env:
-    AZURE_CONTAINER_REGISTRY: webapidotnet
+    AZURE_CONTAINER_REGISTRY: aksndc
     CHART_OVERRIDE_PATH: ./charts/production.yaml
     CHART_PATH: ./charts
     CLUSTER_NAME: aks-ndc
